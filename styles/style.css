@@ -29,7 +29,8 @@ ul {
 nav a {
   margin-right: 15px;
   text-decoration: none;
-  color: black;
+  color: #000000de;
+  font-size: 13px;
 }
 
 main {
@@ -37,6 +38,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: calc(100vh - 360px);
 }
 main form {
   display: flex;
@@ -49,7 +51,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: grey;
+  background-color: #f2f2f2;
 }
 
 div#footer-links {
@@ -59,18 +61,34 @@ div#footer-links {
 
 div#location, div#footer-links {
   padding: 10px 30px;
-  border-top: 1px solid black;
+  border-top: 1px solid #d8d6d6;
 }
 
 footer p {
   margin: 0;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
 }
 
 footer a {
   margin-right: 15px;
   text-decoration: none;
-  color: black;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
 }
 footer ul > li:last-child a {
   margin: 0;
+}
+
+@media (max-width: 805px) {
+  div#footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div#footer-links ul:first-child {
+    margin-bottom: 10px;
+  }
+
 }
