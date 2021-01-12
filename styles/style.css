@@ -12,3 +12,35 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
