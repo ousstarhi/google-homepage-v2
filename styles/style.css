@@ -39,12 +39,21 @@ main {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 360px);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 main form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  max-width: 500px;
+  min-width: 350px;
 }
 
 footer {
