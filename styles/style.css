@@ -39,6 +39,10 @@ nav a {
   font-size: 13px;
 }
 
+nav li:last-child a {
+  margin-right: 30px;
+}
+
 nav li:nth-child(3) .material-icons {
   color: rgba(0, 0, 0, 0.7); 
 }
@@ -81,7 +85,7 @@ form .material-icons {
   position: absolute;
   
 }
-/* 426.4 296.8*/
+
 form input {
   width: 100%;
   max-width: 500px;
@@ -99,6 +103,11 @@ form input {
 
 form input:focus {
   outline: 0;
+}
+
+form input:hover {
+  box-shadow: 0 0 5px 0px #cac2c2;
+  border: 1px solid white;
 }
 
 form div.buttons {
