@@ -96,7 +96,7 @@ form input {
   margin: 25px;
   padding-left: 40px;
   padding-right: 15px;
-  background-image: url("../media/search-black-18dp.svg"), url("../media/google-mic.svg");
+  background-image: url("../media/search-grey.svg"), url("../media/google-mic.svg");
   background-repeat: no-repeat;
   background-position: 15px center, 96% center;
 }
