@@ -170,3 +170,14 @@ main p#results-time {
   font-size: 14px;
   color: grey;
 }
+main div#results-content {
+  margin-left: 172px;
+}
+main p.page-link {
+  display: flex;
+  align-items: center;
+}
+main p.page-link > span {
+  display: flex;
+  align-items: center;
+}
