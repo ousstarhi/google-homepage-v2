@@ -168,4 +168,5 @@ main div#tabs ul:first-child li:first-child {
 main p#results-time {
   margin-left: 172px;
   font-size: 14px;
+  color: grey;
 }
