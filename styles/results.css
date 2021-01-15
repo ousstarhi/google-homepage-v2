@@ -20,7 +20,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 110px;
+  height: 85px;
+  margin-top: 10px;
 }
 
 header > div:first-child {
@@ -132,7 +133,7 @@ header li .material-icons:hover {
 }
 
 main > div#tabs-wrapper {
-  border-bottom: 1px solid grey;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
 
 }
 
@@ -145,13 +146,15 @@ div#tabs {
 }
 
 main div#tabs li {
-  height: 35px;
+  height: 40px;
   text-align: end;
   font-size: 14px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: grey;
+  margin-left: 22px;
 }
 
 main div#tabs .material-icons {
@@ -159,7 +162,9 @@ main div#tabs .material-icons {
   margin-right: 3px;
 }
 main div#tabs ul:first-child li:first-child {
-  border-bottom: 2px solid blue;
+  border-bottom: 3px solid #1a73e8;
+  color: #1a73e8;
+  margin-left: 10px;
 }
 
 
