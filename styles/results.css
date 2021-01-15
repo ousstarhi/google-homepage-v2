@@ -176,8 +176,18 @@ main div#results-content {
 main p.page-link {
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 main p.page-link > span {
   display: flex;
   align-items: center;
+  color: #777373;
+}
+
+main p.page-link .material-icons:first-child {
+  font-size: 12px;
+}
+
+main p.page-link .material-icons:last-child {
+  font-size: 20px;
 }
