@@ -131,5 +131,35 @@ header li .material-icons:hover {
   cursor: pointer; 
 }
 
+main > div#tabs-wrapper {
+  border-bottom: 1px solid grey;
+
+}
+
+div#tabs {
+  width: 670px;
+  margin-left: 162px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main div#tabs li {
+  height: 35px;
+  text-align: end;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main div#tabs .material-icons {
+  font-size: 18px;
+  margin-right: 3px;
+}
+main div#tabs ul:first-child li:first-child {
+  border-bottom: 2px solid blue;
+}
 
 
