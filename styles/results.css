@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -169,14 +171,23 @@ main p#results-time {
   margin-left: 172px;
   font-size: 14px;
   color: grey;
+  margin-bottom: 18px;
 }
 main div#results-content {
   margin-left: 172px;
+  margin-bottom: 18px;
+  width: 650px;
 }
+
+div.content-block {
+  margin-bottom: 30px;
+}
+
 main p.page-link {
   display: flex;
   align-items: center;
   font-size: 14px;
+  margin-bottom: 4px;
 }
 main p.page-link > span {
   display: flex;
@@ -190,4 +201,183 @@ main p.page-link .material-icons:first-child {
 
 main p.page-link .material-icons:last-child {
   font-size: 20px;
+}
+
+main p.page-link .material-icons.double {
+  font-size: 12px;
+}
+
+div.content-block p.page-title {
+  color: #1a0dab;
+  font-size: 21px;
+  margin: 0;
+}
+
+.page-sample {
+  color: rgba(0, 0, 0, 0.62);
+  font-size: 14px;
+  margin-top: 4px;
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.content-date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+p.asking-heading {
+  font-size: 20px;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+p.question {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
+  padding-bottom: 12px;
+}
+
+p.question:nth-child(5) {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+p.question > .material-icons {
+  position: relative;
+  bottom: 5px;
+  float: right;
+  color: grey;
+}
+
+hr {
+  display: inline-block;
+  width: 582px;
+  margin: 0;
+  position: relative;
+  bottom: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: rgba(128, 128, 128, 0.2);
+  border-width: 0;
+  height: 1.5px;
+  margin-right: 10px;
+}
+
+.feedback {
+  font-size: 12px;
+  color: grey;
+  vertical-align: text-top;
+}
+
+div#related > p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+div#list {
+  display: flex;
+  font-size: 14px;
+  justify-content: flex-start;
+}
+
+div#list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+div#list ul:last-child {
+  margin-left: 40px;
+}
+
+div#list li {
+  margin-left: 0;
+  margin-bottom: 10px;
+  color: #1a0dab;
+  font-weight: bold;
+}
+
+div#google-pages {
+  font-family: 'Spartan', sans-serif;
+  display: flex;
+  position: relative;
+  left: 160px;
+  margin: 20px 0;
+}
+
+div#google-pages #g {
+  color: #4285f4;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#o-red, #e {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#e {
+  transform: rotate(-12deg);
+  display: inline-block;
+}
+
+#o-yellow {
+  color: #fbbc05;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#g-lower {
+  color: #4285f4;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#l {
+  color: #34a853;
+  font-weight: bold;
+  font-size: 30px;;
+  font-weight: bold;
+  font-size: 30px;;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page-container:nth-child(2) {
+  cursor: default;
+}
+
+.page-container:nth-child(2):hover .page-number {
+  text-decoration: none;
+}
+.page-container:nth-child(2) .page-number {
+  color: black;
+}
+
+.page-number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #4285f4;
+}
+.page-container:hover .page-number {
+  text-decoration: underline;
+}
+
+.page-container.page-number {
+  justify-content: space-around;
+  transform: translateX(10px);
+}
+
+.page-container:hover > #next {
+  text-decoration: underline;
 }
