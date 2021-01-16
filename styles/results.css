@@ -226,9 +226,41 @@ p.asking-heading {
   font-size: 20px;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
   padding-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 p.question {
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
   padding-bottom: 12px;
+}
+
+p.question:nth-child(5) {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+p.question > .material-icons {
+  position: relative;
+  bottom: 5px;
+  float: right;
+  color: grey;
+}
+
+hr {
+  display: inline-block;
+  width: 582px;
+  margin: 0;
+  position: relative;
+  bottom: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: rgba(128, 128, 128, 0.2);
+  border-width: 0;
+  height: 1.5px;
+  margin-right: 10px;
+}
+
+.feedback {
+  font-size: 12px;
+  color: grey;
+  vertical-align: text-top;
 }
