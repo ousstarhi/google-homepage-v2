@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -295,4 +297,87 @@ div#list li {
   margin-bottom: 10px;
   color: #1a0dab;
   font-weight: bold;
+}
+
+div#google-pages {
+  font-family: 'Spartan', sans-serif;
+  display: flex;
+  position: relative;
+  left: 160px;
+  margin: 20px 0;
+}
+
+div#google-pages #g {
+  color: #4285f4;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#o-red, #e {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#e {
+  transform: rotate(-12deg);
+  display: inline-block;
+}
+
+#o-yellow {
+  color: #fbbc05;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#g-lower {
+  color: #4285f4;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#l {
+  color: #34a853;
+  font-weight: bold;
+  font-size: 30px;;
+  font-weight: bold;
+  font-size: 30px;;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page-container:nth-child(2) {
+  cursor: default;
+}
+
+.page-container:nth-child(2):hover .page-number {
+  text-decoration: none;
+}
+.page-container:nth-child(2) .page-number {
+  color: black;
+}
+
+.page-number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #4285f4;
+}
+.page-container:hover .page-number {
+  text-decoration: underline;
+}
+
+.page-container.page-number {
+  justify-content: space-around;
+  transform: translateX(10px);
+}
+
+.page-container:hover > #next {
+  text-decoration: underline;
 }
