@@ -169,14 +169,23 @@ main p#results-time {
   margin-left: 172px;
   font-size: 14px;
   color: grey;
+  margin-bottom: 18px;
 }
 main div#results-content {
   margin-left: 172px;
+  margin-bottom: 18px;
+  width: 650px;
 }
+
+div.content-block {
+  margin-bottom: 30px;
+}
+
 main p.page-link {
   display: flex;
   align-items: center;
   font-size: 14px;
+  margin-bottom: 4px;
 }
 main p.page-link > span {
   display: flex;
@@ -190,4 +199,36 @@ main p.page-link .material-icons:first-child {
 
 main p.page-link .material-icons:last-child {
   font-size: 20px;
+}
+
+div.content-block p.page-title {
+  color: #1a0dab;
+  font-size: 21px;
+  margin: 0;
+}
+
+.page-sample {
+  color: rgba(0, 0, 0, 0.62);
+  font-size: 14px;
+  margin-top: 4px;
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.content-date {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+p.asking-heading {
+  font-size: 20px;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
+  padding-bottom: 12px;
+}
+
+p.question {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
+  padding-bottom: 12px;
 }
