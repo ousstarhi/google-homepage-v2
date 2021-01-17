@@ -24,6 +24,13 @@ header {
   margin-top: 10px;
 }
 
+header {
+  position: sticky;
+  top: -10px;
+  z-index: 999;
+  background-color: white;
+}
+
 header > div:first-child {
   display: flex;
   align-items: center;
@@ -207,10 +214,18 @@ main p.page-link .material-icons.double {
   font-size: 12px;
 }
 
+.page-link, .page-title {
+  cursor: pointer;
+}
+
 div.content-block p.page-title {
   color: #1a0dab;
   font-size: 21px;
   margin: 0;
+}
+
+.page-title:hover {
+  text-decoration: underline;
 }
 
 .page-sample {
@@ -218,6 +233,14 @@ div.content-block p.page-title {
   font-size: 14px;
   margin-top: 4px;
   line-height: 20px;
+}
+
+.page-sample a {
+  text-decoration: none;
+}
+
+.page-sample a:hover {
+  text-decoration: underline;
 }
 
 .bold {
@@ -297,6 +320,7 @@ div#list li {
   margin-bottom: 10px;
   color: #1a0dab;
   font-weight: bold;
+  cursor: pointer;
 }
 
 div#google-pages {
@@ -380,4 +404,67 @@ div#google-pages #g {
 
 .page-container:hover > #next {
   text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+}
+
+div#footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+div#location {
+  display: flex;
+  align-items: center;
+}
+
+div#location p:first-child {
+  padding: 5px 10px 5px 0px;
+  border-right: 1px solid rgba(128, 128, 128, 0.27);
+}
+div#location p:last-child {
+  padding: 5px 0px 5px 10px;
+}
+
+div#location, div#footer-links {
+  border-top: 1px solid #d8d6d6;
+  padding: 10px 0px 10px 172px;
+}
+
+footer p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+.light-black {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+footer .material-icons {
+  font-size: 15px;
+  vertical-align: top;
+}
+
+footer li {
+  margin-left: 30px;
+}
+
+footer a {
+  margin-right: 0px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+footer li:first-child {
+  margin-left: 0;
+}
+
+footer ul > li:last-child a {
+  margin: 0;
 }
