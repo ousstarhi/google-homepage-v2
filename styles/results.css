@@ -24,6 +24,18 @@ header {
   margin-top: 10px;
 }
 
+header {
+  position: sticky;
+  top: -10px;
+  z-index: 999;
+  background-color: white;
+}
+
+header > div, header > ul {
+  position: sticky;
+  top: 0;
+}
+
 header > div:first-child {
   display: flex;
   align-items: center;
@@ -207,10 +219,18 @@ main p.page-link .material-icons.double {
   font-size: 12px;
 }
 
+.page-link, .page-title {
+  cursor: pointer;
+}
+
 div.content-block p.page-title {
   color: #1a0dab;
   font-size: 21px;
   margin: 0;
+}
+
+.page-title:hover {
+  text-decoration: underline;
 }
 
 .page-sample {
@@ -218,6 +238,14 @@ div.content-block p.page-title {
   font-size: 14px;
   margin-top: 4px;
   line-height: 20px;
+}
+
+.page-sample a {
+  text-decoration: none;
+}
+
+.page-sample a:hover {
+  text-decoration: underline;
 }
 
 .bold {
@@ -297,6 +325,7 @@ div#list li {
   margin-bottom: 10px;
   color: #1a0dab;
   font-weight: bold;
+  cursor: pointer;
 }
 
 div#google-pages {
