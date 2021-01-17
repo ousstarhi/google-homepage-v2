@@ -31,11 +31,6 @@ header {
   background-color: white;
 }
 
-header > div, header > ul {
-  position: sticky;
-  top: 0;
-}
-
 header > div:first-child {
   display: flex;
   align-items: center;
